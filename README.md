@@ -6,8 +6,8 @@ This repo contains code and data products associated with the paper "How well is
 
 - `scripts/`: figure plotting scripts and validation helpers.
 - `intermediates/`: lightweight CSV/TXT inputs consumed by the plotting scripts.
-- `outputs/figures/`: generated PNG outputs.
-- `provenance_notebooks/`: cleaned notebooks showing how intermediate files can be regenerated from raw data.
+- `outputs/figures/`: generated PNG outputs for all technical figures in the paper.
+- `provenance_notebooks/`: notebooks showing how intermediate files can be regenerated from raw data.
 - `FigureGenerationList.txt`: figure-to-script map for manuscript and supplementary figures.
 
 The raw zarr/NetCDF inputs and large GOBM pickle files are not included in this repository because of their size (~50 Gb), but can be provided upon request.
