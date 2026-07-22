@@ -1,0 +1,41 @@
+# Local operating-system and editor files
+.DS_Store
+**/.DS_Store
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local raw data and bulky archives
+raw/
+*.tar
+*.tar.gz
+*.zip
+intermediates/*.tar
+intermediates/*.tar.gz
+intermediates/*.zip
+intermediates/FromRomy/*.zip
+
+# Scratch/reconstruction workspace retained locally but not part of the package
+knn_reconstruction/
+release_build/
+
+# Internal packaging/audit notes superseded by README and FigureGenerationList
+WhichFiles.txt
+FigureNotebookAudit.md
+NotebookDownloadList.md
+make_notebook_tar.sh
+docs/comparison_notebook_intermediates.md
+docs/remaining_figure_scripts.md
+
+# Root-level source notebooks are preserved, cleaned, under provenance_notebooks/
+/*.ipynb
+provenance_notebooks/original_notebooks/
+
+# Local environment and notebook runtime state
+.env
+.venv/
+venv/
+env/
+.jupyter/
+.matplotlib/

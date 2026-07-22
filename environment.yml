@@ -1,0 +1,22 @@
+name: co2represent
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - xarray
+  - zarr
+  - netcdf4
+  - cmocean
+  - cartopy
+  - ipykernel
+  - notebook
+  - pip
+  - pip:
+      - dadapy
+
